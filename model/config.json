@@ -1,0 +1,42 @@
+{
+    "_name_or_path": "google/vit-huge-patch14-224-in21k",
+    "architectures": [
+      "ViTForImageClassification"
+    ],
+    "attention_probs_dropout_prob": 0.0,
+    "encoder_stride": 16,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.0,
+    "hidden_size": 1280,
+    "id2label": {
+      "0": "akiec",
+      "1": "bcc",
+      "2": "bkl",
+      "3": "df",
+      "4": "mel",
+      "5": "nv",
+      "6": "vasc"
+    },
+    "image_size": 224,
+    "initializer_range": 0.02,
+    "intermediate_size": 5120,
+    "label2id": {
+      "akiec": "0",
+      "bcc": "1",
+      "bkl": "2",
+      "df": "3",
+      "mel": "4",
+      "nv": "5",
+      "vasc": "6"
+    },
+    "layer_norm_eps": 1e-12,
+    "model_type": "vit",
+    "num_attention_heads": 16,
+    "num_channels": 3,
+    "num_hidden_layers": 32,
+    "patch_size": 14,
+    "problem_type": "single_label_classification",
+    "qkv_bias": true,
+    "torch_dtype": "float32",
+    "transformers_version": "4.30.2"
+  }
