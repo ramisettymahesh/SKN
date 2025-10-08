@@ -82,4 +82,3 @@ class CustomCNNModel:
 
 c = CustomCNNModel()
 model = c.get_model()
-print(c.summary())
