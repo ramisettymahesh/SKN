@@ -12,7 +12,8 @@ function Navbar() {
     { path: '/learning', label: 'Image Analysis', protected: true },
     { path: '/analysis', label: 'Risk Assessment', protected: true },
     { path: '/food-recommendations', label: 'Health Guide', protected: true },
-    { path: '/stories', label: 'Mapping', protected: true }
+    { path: '/stories', label: 'Mapping', protected: true },
+    {path :'/metrics', label:'Metrics',protected:true}
   ];
 
   const handleNavClick = (path, isProtected) => {

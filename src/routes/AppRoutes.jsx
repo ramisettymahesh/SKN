@@ -7,6 +7,7 @@ import ImageAnalysis from '../pages/ImageAnalysis';
 import FoodRecommendations from '../pages/FoodRecommendations';
 import PatientStories from '../pages/PatientStories';
 import Learning from '../pages/Learning';
+import ModelMetrics from '../components/analysis/ModelMetrics'
 
 function AppRoutes() {
   return (
@@ -24,6 +25,12 @@ function AppRoutes() {
           <FoodRecommendations />
         </ProtectedRoute>
       } />
+      <Route path="/metrics" element={
+        <ProtectedRoute>
+          <ModelMetrics/>
+          </ProtectedRoute>
+      } />
+
       <Route path="/stories" element={
         <ProtectedRoute>
           <PatientStories />
